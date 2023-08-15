@@ -4,7 +4,7 @@ import searchIcon from "./search.svg"
 import MovieCard from "./Movie"
 
 export default function App(){
-    const url=`http://www.omdbapi.com?apikey=c032e2d7`
+    const url=`https://www.omdbapi.com?apikey=c032e2d7`
     const [Moviearray, setMoviearray]=React.useState([])
     const [searchKey, setSearchKey]=React.useState("")
     React.useEffect(()=>{
